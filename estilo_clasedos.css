@@ -1,0 +1,53 @@
+.btn {
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+}
+
+.imagen {
+    width: 150px;
+    height: 300px;
+}
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 5px; 
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+}
+
+.btn {
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Formulario */
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 400px;
+}
+
+.formulario label {
+    display: inline-block;
+    width: 100%;
+}
+
+.formulario input {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.formulario button {
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
