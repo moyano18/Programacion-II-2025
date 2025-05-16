@@ -1,0 +1,93 @@
+/* Estilos del cuerpo */
+body {
+  background: #C0D9D9 url('imag/fondo.png') repeat; /* Imagen de fondo agregada */
+  font: 8pt Verdana, Garamond, Arial, Helvetica, sans-serif;
+  color: #12cc7e;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+/* Contenedor general */
+#contenedor {
+  text-align: left;
+  width: 700px;
+  background-color: #F5E614;
+  margin: auto;
+}
+
+/* Cabecera */
+#logo-cabecera {
+  height: 106px;
+  width: 700px;
+}
+
+#foto{
+    object-fit: contain;
+}
+
+/* Navegador */
+#navegador {
+  background: #F5F4C3;
+  padding: 3px 10px 5px 10px;
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+}
+
+/* Contenido principal */
+#contenido-principal {
+  width: 480px;
+  margin-left: 8px;
+  padding: 12px 0px 10px 0px;
+  background-color: #ffffff;
+  float: left;
+}
+
+/* Título */
+h1 {
+  font-size: 14pt;
+}
+
+/* Menú inferior */
+#menu-inferior {
+  font-weight: bold;
+}
+
+/* Lateral derecho */
+#l-derecho {
+  width: 200px;
+  background-color: #EBFEED;
+  border-bottom: 1px solid #cccccc;
+  border-left: 1px solid #cccccc;
+  float: right;
+}
+
+/* Títulos de caja lateral */
+.nombre-caja {
+  background-color: #68729E;
+  color: #ffffff;
+  font-size: 8pt;
+  text-transform: uppercase;
+  padding: 7px 3px 7px 8px;
+  font-weight: normal;
+  letter-spacing: 2px;
+  margin: 0px 0px 8px 0px;
+}
+
+/* Caja lateral */
+.lateral {
+  padding: 5px 4px 13px 10px;
+}
+
+/* Lista de enlaces */
+#l-derecho ul {
+  margin: 5px 10px 0px 0px;
+  padding: 0px 0px 0px 4px;
+  list-style: none;
+}
+
+/* Elementos de lista con icono (no definido) */
+#l-derecho li {
+  padding-left: 14px;
+  background: transparent url('imag/icono.png') 0 2px no-repeat; /* Icono agregado */
+  margin-bottom: 10px;
+}
